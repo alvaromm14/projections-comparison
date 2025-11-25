@@ -207,21 +207,19 @@
   .wrap {
     width: 100%;
     max-width: 1000px;
-    margin: 0px auto;
+    margin: auto;
   }
-
   .controls {
     display: flex;
     gap: 12px;
     align-items: center;
     flex-wrap: wrap;
-    margin-bottom: 12px;
+    margin: 0 auto 12px auto;
+    max-width: 752px;
   }
 
   .controls label {
     min-width: 110px;
-    font-size: 0.9rem;
-    color: #555;
   }
 
   /* fila interna para slider + botón */
@@ -264,6 +262,10 @@
     border-radius: 8px;
     padding: 10px;
     box-sizing: border-box;
+  }
+
+  .card strong {
+    font-weight: bold;
   }
 
   .map-svg {
