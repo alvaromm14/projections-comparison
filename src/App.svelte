@@ -222,7 +222,6 @@
     min-width: 110px;
   }
 
-  /* fila interna para slider + botón */
   .controls-row {
     display: flex;
     gap: 8px;
@@ -252,7 +251,7 @@
 
   .map-svg path,
   .map-svg g > path {
-    transform: translateY(-10px); /* Ajuste fino */
+    transform: translateY(-10px);
     transform-box: fill-box;
   }
 
@@ -282,12 +281,12 @@
 
   @media (max-width: 500px) {
     .maps {
-      flex-direction: column; /* ya lo tenías */
-      align-items: center; /* centra las cards */
+      flex-direction: column;
+      align-items: center;
     }
 
     .card {
-      flex: 1 1 100%; /* ocupan todo el ancho */
+      flex: 1 1 100%;
       width: 100%;
     }
   }
