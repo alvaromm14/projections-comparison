@@ -157,8 +157,6 @@
 
 <div class="wrap">
   <div class="controls">
-    <label class="small">Ajusta el tamaño de Groenlandia:</label>
-
     <div class="controls-row">
       <input
         type="range"
